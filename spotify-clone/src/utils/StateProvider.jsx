@@ -9,4 +9,4 @@ export const StateProvider=({children,initialState,reducer})=>(
 </StateProvider.Provider>
 );
 
-
+export const useStateProvider=()=>useContext(StateContext);
