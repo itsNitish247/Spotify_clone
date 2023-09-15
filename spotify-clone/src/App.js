@@ -4,6 +4,7 @@ import { reducerCases } from './utils/constants';
 import { useStateProvider } from './utils/StateProvider';
 import Spotify from './components/spotify';
 
+
 export default function App() {
   const [{ token }, dispatch] = useStateProvider();
   useEffect(() => {
